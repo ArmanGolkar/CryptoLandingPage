@@ -388,6 +388,10 @@ body{
     .top-container{
         margin-top: 4rem !important;
     }
+    .get-started .header{
+        text-align: center;
+        font-size: 26px;
+    }
 
     .top-container .info-box{
         max-height: none;
@@ -456,7 +460,17 @@ body{
 
 
 /* Crypto price List */
-
+.price-list{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.price-list h2{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    border-top: #fff 2px solid;
+    padding-top: 30px;
+}
 
 .Price-container {
     height: 70vh;
@@ -465,7 +479,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     background: transparent;
-    margin-top: 20px;
+    margin-top: 40px;
     box-sizing: border-box;
     gap: 10px;
 }
@@ -549,6 +563,13 @@ body{
     color: #ff4040;
 }
  @media (max-width: 650px) {
+    .price-list h2{
+        font-size: 26px;
+        color: #fff;
+        text-align: center;
+        border-top: #fff 1px solid;
+        padding-top: 30px;
+    }
     .Price-container {
         height: 80vh;
         display: flex;
@@ -611,7 +632,7 @@ body{
     
     .coin .coin-price .price{
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 500;
         margin-top: -6px;
     }
     
